@@ -27,7 +27,9 @@
  .subtaskColor{
    background-color: rgb(253, 250, 250,.7);
  }
- 
+ .background{
+   background-color: #002;
+ }
 :root {
   --blue: blue;
   --indigo: indigo;

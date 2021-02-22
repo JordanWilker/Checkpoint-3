@@ -22,7 +22,7 @@ export default class Task{
                 <h5>Sub Tasks</h5>
                 <form onsubmit="app.subtasksController.createSubTask(event,'${this.id}')">
                     <div class="form-group">
-                        <input type="text" name="title" maxlength=15 minlength=3 placeholder="Enter Task...">
+                        <input type="text" name="title" required maxlength=15 minlength=3 placeholder="Enter Task...">
                         <button class="btn-success btn" type="submit">Create SubTask</button>
                     </div>
                     <div class = "row">
