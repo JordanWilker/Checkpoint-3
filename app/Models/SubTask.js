@@ -3,12 +3,12 @@ import {ProxyState} from "../AppState.js"
 
 
 export default class SubTask {
-    constructor({title, id=generateId(), completed = false, taskId, color }){
+    constructor({title, id=generateId(), completed = false, taskId, color = Math.ceil(Math.random()*6) }){
         this.title = title
         this.id = id
         this.completed = completed
         this.taskId = taskId
-        this.color = Math.ceil(Math.random()*6)
+        this.color = color
     }
 
     get Template(){
